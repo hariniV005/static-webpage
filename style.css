@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns:50% 50%; /* 75% for image, 25% for content */
+    grid-template-rows: 50% 50%;
+    gap: 1px; /* Gap between image and content */
+}
+
+.imga img {
+    width: 500px;; /* Ensure image takes up full width of its container */
+    height: 500px; /* Maintain aspect ratio */
+    
+}
+.content { 
+   /* Content spans second column */
+    grid-column: 2 ;
+    color:aquamarine
+}

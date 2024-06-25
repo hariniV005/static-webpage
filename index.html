@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QVESYS</title>
+</head>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script id="s" type="text/javascript" async src=""></script>
+<script type="text/javascript" nonce></script>
+<script>
+    function toggleMenu() {
+        var sidebar = document.querySelector('.sidebar');
+        sidebar.classList.toggle('active');
+    }
+</script>
+<style>
+    .a {
+        position: absolute;
+        right: 40px;
+        border-bottom-width: 10px;
+    }
+
+    .asb {
+        position: absolute;
+        right: 10px;
+    }
+
+    .as {
+        color: rgb(5, 242, 242);
+    }
+
+    input[type="search"] {
+        position: absolute;
+        right: 65px;
+        margin: 1px;
+        border: 1px solid #ccc;
+    }
+
+    /* styles.css */
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .menu-icon {
+        cursor: pointer;
+    }
+
+    .sidebar {
+        position: absolute;
+        top: 0;
+        right: -250px;
+        /* Initially hidden off-screen */
+        width: 150px;
+        height: 30%;
+        background-color: #333;
+        transition: right 0.3s ease;
+    }
+
+    .sidebar.active {
+        right: 0;
+        /* Move sidebar to the visible position */
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    ul li {
+        padding: 5px;
+    }
+
+    ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    ul li a:hover {
+        color: #f1c40f;
+        /* Change color on hover */
+    }
+</style>
+
+<header style="border-bottom:solid; ">
+    <i class="material-icons as">QVESYS</i>
+    <i class="material-icons a">search</i>
+    <i class="material-icons asb menu-icon" onclick="toggleMenu()">person</i>
+    <input type="search" id="site-search" name="q" aria-label="Search through site content">
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+</header>
+<link href="style.css" rel="stylesheet">
+
+<body style="background-color: rgb(111, 30, 187); margin-top: 5px;">
+    <div class="container">
+        <div class="imga">
+            <img src="sc.png" alt="img">
+            <div style=" color:#e71010">
+                <h1>"Shape your future with hands-on experience."</h1>
+            </div>
+        </div>
+        <div class="content">
+            <h1 style="color: #e71010;">Unlock Your Potential with Cutting-Edge IT Training</h1>
+            <h2 style="color: rgb(18, 17, 17);">Are you ready to elevate your IT skills and accelerate your career? <h2>
+                    <p style="color: white;">
+                        Join our comprehensive IT training program tailored for aspiring professionals
+                        and seasoned experts alike.
+                        Whether you're looking to master Web development,coding skills,non coding  or software
+                        development, we have the courses and certifications to propel you forward.
+                    </p>
+                    <h2 style="color: rgb(18, 17, 17);">Why Choose Us?</h2>
+                    <p style="color: white;">Our commitment to excellence and student success sets us apart.
+                        We combine innovative teaching methods with practical insights to ensure you gain
+                        real-world skills that employers value.
+                        Join thousands of successful graduates who have transformed their careers with our IT training.
+                    </p>
+                    <h2 style="color: rgb(18, 17, 17)">Ready to Take the Next Step?</h2>
+                    <p style="color: white;">Visit </p>
+                    <b ><a
+                            href="https://www.bing.com/ck/a?!&&p=01261bab70e73e57JmltdHM9MTcxOTEwMDgwMCZpZ3VpZD0wYWI4ODdiZC01ZDk5LTY2ZjktMzdlZi05MzMyNWNjYjY3MWYmaW5zaWQ9NTIwOQ&ptn=3&ver=2&hsh=3&fclid=0ab887bd-5d99-66f9-37ef-93325ccb671f&psq=qvesys&u=a1aHR0cHM6Ly9xdmVzeXMuaW4v&ntb=1">QVESYS</a></b>
+                    <p style="color: white;">to explore our course offerings and enroll today.
+                        Accelerate your IT career with us!</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
